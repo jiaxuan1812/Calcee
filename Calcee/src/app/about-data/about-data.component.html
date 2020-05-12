@@ -1,0 +1,36 @@
+<p class="aboutme"> About Me </p>
+<br>
+<div class="main">
+    <p> Hi, I'm Jiaxuan He, creator of Calcee. Calcee is a very simple calculator that I have 
+        infused with my passion for math and that I partly designed in preparation for my upcoming study
+        project in university. I'm a B.S.c student, majoring in media computer science.
+    </p>
+    <p> My hobbies encompass photography - particularly street and urban photography, working out, reading and film. I happen to have a film blog as well and 
+        a youtube channel.
+        Below, you'll find the necessary links to my social media where I share my passion.
+    </p>
+</div>
+
+<div class="favourite">
+    <div class="favFilms">
+        <p class="title"> 4 of My Favourite Films: </p>
+        <p class="error"> {{errorMsg}}</p>
+        <ul *ngFor="let film of films">
+            <a href="https://letterboxd.com/jiaxuan1512/film/{{film.forLink}}"><li> {{film.name}} - {{film.director}} </li> </a> 
+        </ul>
+    </div>
+    <div class="favDPs">
+        <p class="title"> 4 of My Favourite DPs: </p>
+        <p class="error"> {{errorMsg}}</p>
+        <ul *ngFor="let dp of dps">
+            <a href="https://letterboxd.com/jiaxuan1512/film/{{dp.forLink}}"> <li> {{dp.name}} - {{dp.favfilm}} </li> </a>  
+        </ul>
+    </div>
+</div>
+
+<div class="socialmedia"> 
+    <a href="https://letterboxd.com/jiaxuan1512/"> <img src="./assets/logos/lbox_logo.png" class="lbox" href="www.youtueb.com"> </a>
+    <a href="https://www.instagram.com/olv_man/"> <img src="./assets/logos/inst_logo.png" class="inst"> </a>
+    <a href="https://www.youtube.com/Iklelele"> <img src="./assets/logos/yt_logo.png" class="yt"> </a>
+</div>
+

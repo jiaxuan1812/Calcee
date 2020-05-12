@@ -1,0 +1,9 @@
+<p class="title"> Calculator </p>
+<app-inputfield1 (inputEmitter)="receiveResult($event)" ></app-inputfield1>
+<app-outputfield [outputResult]="result"></app-outputfield>
+
+<div class="botBar">
+    <button class="toFastExpo opt" routerLink="/fastexpo"> to FastExpo </button>
+    <button class="toEEA opt" routerLink="/eea"> to EEA </button>
+</div>
+

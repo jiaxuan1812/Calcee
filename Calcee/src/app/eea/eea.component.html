@@ -1,0 +1,41 @@
+<p class="title"> Extended Euler's Algorithm </p>
+
+<div class="inputs">
+        <input placeholder ="Argument 1" class="input1" [(ngModel)]="a" type="number">
+
+        <input placeholder ="Argument 2" class="input2" [(ngModel)]="b" type="number">
+</div>
+
+<div class="btn">
+    <button class="calc" (click)="displayGCD()"> Go! </button>
+</div>
+
+<input class="output" id="output" readonly="readonly" value=""> 
+
+<div class="solutions"> 
+    <div class="b opt">
+        <p> b  </p>
+        <br> <div class="sol" *ngIf = "!calculating"> {{ b1 }} </div>
+    </div>
+    <div class="x0 opt"> 
+        <p> x0  </p>
+        <br> <div class="sol" *ngIf = "!calculating"> {{ x0 }} </div>
+    </div>
+    <div class="y0 opt"> 
+        <p> y0  </p>
+        <br> <div class="sol" *ngIf = "!calculating"> {{ y0 }} </div>
+    </div>
+    <div class="x1 opt"> 
+        <p> x1 </p>
+        <br> <div class="sol" *ngIf = "!calculating"> {{ x1 }} </div>
+    </div>
+    <div class="y1 opt"> 
+        <p> y1  </p>
+        <br> <div class="sol" *ngIf = "!calculating"> {{ y1 }} </div>
+    </div>
+</div>
+
+<div class="botBar">
+    <button class="toCalc opt" routerLink="/calcee"> to Calc </button>
+    <button class="toFastExpo opt" routerLink="/fastexpo"> to FastExpo </button>
+</div>

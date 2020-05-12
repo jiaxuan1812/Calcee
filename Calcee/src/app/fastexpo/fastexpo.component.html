@@ -1,0 +1,15 @@
+<p class="title opt"> FastExponentiation </p>
+
+<input placeholder="Base" class="input1" [(ngModel)] = "base" type="number">
+<input placeholder="Exponent" class="input2" [(ngModel)] = "exp" type="number">
+<input placeholder="Modulo" class="input3" [(ngModel)] = "mod" type="number">
+<div class="buttons">
+    <button class="fastexpobtn" (click)="displayFastExpo()"> GO! </button>
+</div>
+<input class="output" id="output" readonly="readonly" value=""> 
+
+
+<div class="botBar">
+    <button class="toEEA opt" routerLink="/eea"> to EEA </button>
+    <button class="toCalc opt" routerLink="/calcee"> to Calc </button>
+</div>

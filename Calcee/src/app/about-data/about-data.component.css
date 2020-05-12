@@ -1,0 +1,59 @@
+.aboutme {
+    text-align: center;
+    color:rgb(55, 78, 14);
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 4%;
+}
+
+.main {
+    margin-top: 1%;
+    text-align: center;
+    color:rgb(55, 78, 14);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 15px;
+}
+
+.yt {
+    width: 40px;
+}
+
+.socialmedia {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.favourite {
+    text-align: center;
+}
+
+.favourite a:link, a:visited, a:active {
+    text-decoration: none;
+    color: rgb(55, 78, 14);
+} 
+
+
+.favFilms, .favDPs {
+    color:rgb(55, 78, 14);
+    margin-top: 3%;
+    display: inline-block;
+    margin: 3%;
+}
+
+.error {
+    font-size: 20px;
+}
+
+.favFilms .title, .favDPs .title{
+    font-size: 25px;
+    color:rgb(47, 70, 8);
+    letter-spacing: 3px;
+}

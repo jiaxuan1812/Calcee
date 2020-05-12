@@ -1,0 +1,37 @@
+.hometitle {
+    text-align: center;
+    color:rgb(55, 78, 14);
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 4%;
+}
+
+.main {
+    text-align: center;
+}
+
+.main p {
+    color:rgb(55, 78, 14);
+}
+
+.main, .opt {
+    display: inline-block; 
+    margin-left: 50px;
+}
+
+.eeatext, .fastexpotext {
+    margin-top: 35px;
+}
+
+button {
+    border-radius: 3px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    background-color:rgb(71, 150, 71);
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: -30px;
+}

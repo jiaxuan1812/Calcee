@@ -1,0 +1,122 @@
+.title {
+    text-align: center;
+    color:rgb(55, 78, 14);
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-top: 4%;
+}
+
+
+.input1  {
+    background-color:rgb(203, 233, 203);
+    display: block;
+    margin: 0 auto;
+    border: none;
+    height: 40px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 3px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input1:focus, .input2:focus {
+    background-color: rgb(150, 194, 150);
+}
+
+.input1, .input2, .input3{
+    -moz-appearance: textfield;
+}
+
+.input1::placeholder, .input2::placeholder, .input3::placeholder {
+    opacity: 20%;
+}
+
+.input2  {
+    background-color:rgb(203, 233, 203);
+    display: block;
+    margin: 0 auto;
+    border: none;
+    height: 40px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input3  {
+    background-color:rgb(203, 233, 203);
+    display: block;
+    margin: 0 auto;
+    border: none;
+    height: 40px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.fastexpobtn {
+    display: inline;
+    /*margin: 0 auto;*/
+    /*margin-top: 15px;*/
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color:rgb(71, 150, 71);
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.output {
+    border: none;
+    border-bottom: 1px solid rgb(36, 75, 18);
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 250px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.botBar .opt {
+    display: inline;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.botBar {
+    text-align: center;
+    margin-top: 10%;
+    position: relative;
+}
+
+.botBar button {
+    background-color:rgb(161, 204, 141);
+    border: none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    color: white;
+}
+
+

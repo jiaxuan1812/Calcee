@@ -1,0 +1,20 @@
+<p class="titleContact"> Contact </p>
+
+<div class="main"> 
+    I'm very open for further suggestions and questions and everything really you want me to be
+    notified of. 
+    <br> Only as a community, we can improve Calcee!
+</div>
+
+<div class="form">
+    <form #userForm="ngForm" (ngSubmit)="submit()" novalidate> 
+        <div ngModelGroup="personal">
+            <input placeholder="Name" class="name" name="name" type="text" required [(ngModel)]="messenger.name" type="text">
+            <input placeholder="E-Mail" class="email" name="email" type="text" required [(ngModel)]="messenger.email" type="text">
+        </div>
+        <textarea placeholder="Your Message" class="text" name="msg" [(ngModel)]="messenger.msg" type="text"></textarea>
+        <button type="submit" class="send"> Send </button>
+    </form>
+</div>
+
+

@@ -1,0 +1,88 @@
+.titleContact {
+    text-align: center;
+    color:rgb(55, 78, 14);
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-top: 4%;
+}
+
+.main {
+    margin-top: 1%;
+    text-align: center;
+    color:rgb(55, 78, 14);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.name  {
+    background-color:rgb(203, 233, 203);
+    display: block;
+    margin: 0 auto;
+    border: none;
+    height: 40px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 3px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.name:focus, .email:focus, .text:focus {
+    background-color: rgb(150, 194, 150);
+}
+
+.name, .email, .text {
+    -moz-appearance: textfield;
+}
+
+.name::placeholder, .email::placeholder, .text::placeholder {
+    opacity: 20%;
+}
+
+.email  {
+    background-color:rgb(203, 233, 203);
+    display: block;
+    margin: 0 auto;
+    border: none;
+    height: 40px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text {
+    background-color:rgb(203, 233, 203);
+    display: block;
+    margin: 0 auto;
+    border: none;
+    height: 100px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.send {
+    border-radius: 3px;
+    border: none;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    background-color:rgb(71, 150, 71);
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.form {
+    text-align: center;
+}

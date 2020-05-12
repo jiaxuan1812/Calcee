@@ -1,0 +1,121 @@
+.title {
+    text-align: center;
+    color:rgb(55, 78, 14);
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-top: 4%;
+}
+
+.input1 {
+    background-color:rgb(203, 233, 203);
+    display: block;
+    margin: 0 auto;
+    border: none;
+    height: 40px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 3px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input1::placeholder, .input2::placeholder {
+    opacity: 20%;
+}
+
+.input2 {
+    background-color:rgb(203, 233, 203);
+    display: block;
+    margin: 0 auto;
+    border: none;
+    height: 40px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input1:focus, .input2:focus {
+    background-color: rgb(150, 194, 150);
+}
+
+.input1, .input2 {
+    -moz-appearance: textfield;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 15px;
+}
+.calc {
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color:rgb(71, 150, 71);
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.solutions .opt {
+    display: inline-block;
+    margin: 6%;
+    color:rgb(111, 134, 71);
+    font-size: 18px;
+}
+
+.solutions {
+    text-align: center;
+    margin-top: -2%;
+}
+
+.solutions .opt .sol {
+    margin-top: -5px;
+    font-weight: 3px;
+    color:rgb(55, 78, 14);
+}
+
+
+.output {
+    border: none;
+    border-bottom: 1px solid rgb(36, 75, 18);
+    display: block;
+    margin: 0 auto;
+    margin-top: 55px;
+    width: 250px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.botBar .opt {
+    display: inline;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.botBar {
+    text-align: center;
+    margin-top: 6%;
+    position: relative;
+}
+
+.botBar button {
+    background-color:rgb(161, 204, 141);
+    border: none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    color: white;
+    position: static;
+}
+

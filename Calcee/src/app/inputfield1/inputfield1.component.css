@@ -1,0 +1,61 @@
+.input1  {
+    background-color:rgb(203, 233, 203);
+    display: block;
+    margin: 0 auto;
+    border: none;
+    height: 40px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 3px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input1:focus, .input2:focus {
+    background-color: rgb(150, 194, 150);
+}
+
+.input1, .input2 {
+    -moz-appearance: textfield;
+}
+
+.input1::placeholder, .input2::placeholder {
+    opacity: 20%;
+}
+
+.input2  {
+    background-color:rgb(203, 233, 203);
+    display: block;
+    margin: 0 auto;
+    border: none;
+    height: 40px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 3px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.add, .mult, .sub, .div {
+    display: inline;
+    /*margin: 0 auto;*/
+    /*margin-top: 15px;*/
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color:rgb(71, 150, 71);
+    color: white;
+    border-radius: 50%;
+    font-size: 15px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+
